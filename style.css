@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.section-first{
+    display: grid;
+    background-color: whitesmoke;
+}
+
+.nav{
+    background-color: white;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    display: inline;
+}
+
+.content-part{
+    display: flex;
+    flex-direction: row;
+}
+.content-part .upper-part{
+    width: 50%;
+    padding-top: 250px;
+    text-align: justify;
+    text-align: center;
+    text-align: left;
+    background-color: yellow;
+}
+
+.content-part .lower-part {
+    width: 50%;
+    background-color: red;
+}
+
+.content-part div{
+    padding: 20px;
+}
+
+.upper-part button{
+    margin: 20px 0px;
+}
+
+.lower-part img{
+    height: 100%;
+    width: 100%;
+}
+
+.section-second{
+    display: grid;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px 0px 0px;
+    text-align: center;
+}
+
+.section-second h2{
+    margin-top:20px;
+    text-align: center;
+}
+
+.features div img{
+    height: 300px;
+    width: 200px;
+    padding: 0px 5px 0px;
+    
+}
+
+.features div{
+    align-items: center;
+}
+
+
+.third-section h2{
+    text-align: center;
+}
+
+.third-section{
+    text-align: center;
+}
+
+.third-section .card{
+    background-color:turquoise;
+    padding: 20px;
+    margin: 2% 15%;
+}
+
+.fourth-section .contaier{
+    display: flex;
+}
+
+.fourth-section h2{
+    text-align: center;
+}
+
+.fourth-section .connect{
+    width: 100%;
+    text-align: center;
+    
+    background-color:tomato;
+}
+
+.fourth-section .connect label{
+    padding: 5px;
+}
+
+.fourth-section .connect input{
+    margin: 5px;
+}
+
+
+
+.footer{
+    display: grid;
+    text-align: center;
+    background-color:thistle;
+}
